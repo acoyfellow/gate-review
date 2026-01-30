@@ -1,0 +1,14 @@
+{
+  "name": "gate-review",
+  "version": "0.1.0",
+  "description": "Adversarial gate analysis - red-team your tests before implementing",
+  "type": "module",
+  "bin": {
+    "gate-review": "./index.mjs"
+  },
+  "scripts": {
+    "test": "node index.mjs --gate 'test returns array'"
+  },
+  "keywords": ["testing", "gates", "tdd", "adversarial", "gateproof"],
+  "license": "MIT"
+}
